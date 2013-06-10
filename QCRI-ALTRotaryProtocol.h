@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol QCRI_ALTRotaryProtocol <NSObject>
+@protocol QCRIALTRotaryProtocol <NSObject>
+
+- (void) wheelDidChangeValue:(NSString *)newValue;
 
 @end

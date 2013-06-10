@@ -10,4 +10,9 @@
 
 @interface QCRI_ALTSector : NSObject
 
+@property float minValue;
+@property float maxValue;
+@property float midValue;
+@property int sector;
+
 @end

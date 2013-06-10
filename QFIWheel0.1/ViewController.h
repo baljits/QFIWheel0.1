@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QCRI-ALTRotaryProtocol.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<QCRIALTRotaryProtocol>
+
+@property (nonatomic, strong) UILabel *sectorLabel;
 
 @end

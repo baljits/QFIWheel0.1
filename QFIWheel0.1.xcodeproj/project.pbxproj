@@ -19,6 +19,23 @@
 		3CA2769C171FB655001CF16B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2769B171FB655001CF16B /* ViewController.m */; };
 		3CA2769F171FB655001CF16B /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CA2769D171FB655001CF16B /* ViewController_iPhone.xib */; };
 		3CA276A2171FB655001CF16B /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276A0171FB655001CF16B /* ViewController_iPad.xib */; };
+		3CA276AA171FB771001CF16B /* QCRI-ALTRotaryWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA276A9171FB771001CF16B /* QCRI-ALTRotaryWheel.m */; };
+		3CA276AD171FBBF4001CF16B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA276AC171FBBF4001CF16B /* QuartzCore.framework */; };
+		3CA276B0171FD1F3001CF16B /* QCRI-ALTSector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA276AF171FD1F3001CF16B /* QCRI-ALTSector.m */; };
+		3CA276C0171FDCE4001CF16B /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276B2171FDCE4001CF16B /* bg.png */; };
+		3CA276C1171FDCE4001CF16B /* centerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276B3171FDCE4001CF16B /* centerButton.png */; };
+		3CA276C2171FDCE4001CF16B /* icon0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276B4171FDCE4001CF16B /* icon0.png */; };
+		3CA276C3171FDCE4001CF16B /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276B5171FDCE4001CF16B /* icon1.png */; };
+		3CA276C4171FDCE4001CF16B /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276B6171FDCE4001CF16B /* icon2.png */; };
+		3CA276C5171FDCE4001CF16B /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276B7171FDCE4001CF16B /* icon3.png */; };
+		3CA276C6171FDCE4001CF16B /* icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276B8171FDCE4001CF16B /* icon4.png */; };
+		3CA276C7171FDCE4001CF16B /* icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276B9171FDCE4001CF16B /* icon5.png */; };
+		3CA276C8171FDCE4001CF16B /* icon6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276BA171FDCE4001CF16B /* icon6.png */; };
+		3CA276C9171FDCE4001CF16B /* icon7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276BB171FDCE4001CF16B /* icon7.png */; };
+		3CA276CA171FDCE4001CF16B /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276BC171FDCE4001CF16B /* knob.png */; };
+		3CA276CB171FDCE4001CF16B /* mask copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276BD171FDCE4001CF16B /* mask copy.png */; };
+		3CA276CC171FDCE4001CF16B /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276BE171FDCE4001CF16B /* mask.png */; };
+		3CA276CD171FDCE4001CF16B /* segment.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA276BF171FDCE4001CF16B /* segment.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +56,26 @@
 		3CA2769B171FB655001CF16B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3CA2769E171FB655001CF16B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		3CA276A1171FB655001CF16B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		3CA276A8171FB771001CF16B /* QCRI-ALTRotaryWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QCRI-ALTRotaryWheel.h"; sourceTree = "<group>"; };
+		3CA276A9171FB771001CF16B /* QCRI-ALTRotaryWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QCRI-ALTRotaryWheel.m"; sourceTree = "<group>"; };
+		3CA276AB171FB7C8001CF16B /* QCRI-ALTRotaryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QCRI-ALTRotaryProtocol.h"; path = "../QCRI-ALTRotaryProtocol.h"; sourceTree = "<group>"; };
+		3CA276AC171FBBF4001CF16B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3CA276AE171FD1F3001CF16B /* QCRI-ALTSector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "QCRI-ALTSector.h"; path = "../QCRI-ALTSector.h"; sourceTree = "<group>"; };
+		3CA276AF171FD1F3001CF16B /* QCRI-ALTSector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "QCRI-ALTSector.m"; path = "../QCRI-ALTSector.m"; sourceTree = "<group>"; };
+		3CA276B2171FDCE4001CF16B /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		3CA276B3171FDCE4001CF16B /* centerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centerButton.png; sourceTree = "<group>"; };
+		3CA276B4171FDCE4001CF16B /* icon0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon0.png; sourceTree = "<group>"; };
+		3CA276B5171FDCE4001CF16B /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		3CA276B6171FDCE4001CF16B /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		3CA276B7171FDCE4001CF16B /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		3CA276B8171FDCE4001CF16B /* icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon4.png; sourceTree = "<group>"; };
+		3CA276B9171FDCE4001CF16B /* icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon5.png; sourceTree = "<group>"; };
+		3CA276BA171FDCE4001CF16B /* icon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon6.png; sourceTree = "<group>"; };
+		3CA276BB171FDCE4001CF16B /* icon7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon7.png; sourceTree = "<group>"; };
+		3CA276BC171FDCE4001CF16B /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knob.png; sourceTree = "<group>"; };
+		3CA276BD171FDCE4001CF16B /* mask copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mask copy.png"; sourceTree = "<group>"; };
+		3CA276BE171FDCE4001CF16B /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
+		3CA276BF171FDCE4001CF16B /* segment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CA276AD171FBBF4001CF16B /* QuartzCore.framework in Frameworks */,
 				3CA27683171FB655001CF16B /* UIKit.framework in Frameworks */,
 				3CA27685171FB655001CF16B /* Foundation.framework in Frameworks */,
 				3CA27687171FB655001CF16B /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +96,7 @@
 		3CA27676171FB654001CF16B = {
 			isa = PBXGroup;
 			children = (
+				3CA276B1171FDCE4001CF16B /* SMRotaryWheelArt */,
 				3CA27688171FB655001CF16B /* QFIWheel0.1 */,
 				3CA27681171FB654001CF16B /* Frameworks */,
 				3CA27680171FB654001CF16B /* Products */,
@@ -75,6 +114,7 @@
 		3CA27681171FB654001CF16B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3CA276AC171FBBF4001CF16B /* QuartzCore.framework */,
 				3CA27682171FB655001CF16B /* UIKit.framework */,
 				3CA27684171FB655001CF16B /* Foundation.framework */,
 				3CA27686171FB655001CF16B /* CoreGraphics.framework */,
@@ -85,6 +125,11 @@
 		3CA27688171FB655001CF16B /* QFIWheel0.1 */ = {
 			isa = PBXGroup;
 			children = (
+				3CA276A8171FB771001CF16B /* QCRI-ALTRotaryWheel.h */,
+				3CA276AE171FD1F3001CF16B /* QCRI-ALTSector.h */,
+				3CA276AF171FD1F3001CF16B /* QCRI-ALTSector.m */,
+				3CA276AB171FB7C8001CF16B /* QCRI-ALTRotaryProtocol.h */,
+				3CA276A9171FB771001CF16B /* QCRI-ALTRotaryWheel.m */,
 				3CA27691171FB655001CF16B /* AppDelegate.h */,
 				3CA27692171FB655001CF16B /* AppDelegate.m */,
 				3CA2769A171FB655001CF16B /* ViewController.h */,
@@ -108,6 +153,28 @@
 				3CA27698171FB655001CF16B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CA276B1171FDCE4001CF16B /* SMRotaryWheelArt */ = {
+			isa = PBXGroup;
+			children = (
+				3CA276B2171FDCE4001CF16B /* bg.png */,
+				3CA276B3171FDCE4001CF16B /* centerButton.png */,
+				3CA276B4171FDCE4001CF16B /* icon0.png */,
+				3CA276B5171FDCE4001CF16B /* icon1.png */,
+				3CA276B6171FDCE4001CF16B /* icon2.png */,
+				3CA276B7171FDCE4001CF16B /* icon3.png */,
+				3CA276B8171FDCE4001CF16B /* icon4.png */,
+				3CA276B9171FDCE4001CF16B /* icon5.png */,
+				3CA276BA171FDCE4001CF16B /* icon6.png */,
+				3CA276BB171FDCE4001CF16B /* icon7.png */,
+				3CA276BC171FDCE4001CF16B /* knob.png */,
+				3CA276BD171FDCE4001CF16B /* mask copy.png */,
+				3CA276BE171FDCE4001CF16B /* mask.png */,
+				3CA276BF171FDCE4001CF16B /* segment.png */,
+			);
+			name = SMRotaryWheelArt;
+			path = ../../Downloads/SMRotaryWheelArt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +234,20 @@
 				3CA27699171FB655001CF16B /* Default-568h@2x.png in Resources */,
 				3CA2769F171FB655001CF16B /* ViewController_iPhone.xib in Resources */,
 				3CA276A2171FB655001CF16B /* ViewController_iPad.xib in Resources */,
+				3CA276C0171FDCE4001CF16B /* bg.png in Resources */,
+				3CA276C1171FDCE4001CF16B /* centerButton.png in Resources */,
+				3CA276C2171FDCE4001CF16B /* icon0.png in Resources */,
+				3CA276C3171FDCE4001CF16B /* icon1.png in Resources */,
+				3CA276C4171FDCE4001CF16B /* icon2.png in Resources */,
+				3CA276C5171FDCE4001CF16B /* icon3.png in Resources */,
+				3CA276C6171FDCE4001CF16B /* icon4.png in Resources */,
+				3CA276C7171FDCE4001CF16B /* icon5.png in Resources */,
+				3CA276C8171FDCE4001CF16B /* icon6.png in Resources */,
+				3CA276C9171FDCE4001CF16B /* icon7.png in Resources */,
+				3CA276CA171FDCE4001CF16B /* knob.png in Resources */,
+				3CA276CB171FDCE4001CF16B /* mask copy.png in Resources */,
+				3CA276CC171FDCE4001CF16B /* mask.png in Resources */,
+				3CA276CD171FDCE4001CF16B /* segment.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +261,8 @@
 				3CA2768F171FB655001CF16B /* main.m in Sources */,
 				3CA27693171FB655001CF16B /* AppDelegate.m in Sources */,
 				3CA2769C171FB655001CF16B /* ViewController.m in Sources */,
+				3CA276AA171FB771001CF16B /* QCRI-ALTRotaryWheel.m in Sources */,
+				3CA276B0171FD1F3001CF16B /* QCRI-ALTSector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
